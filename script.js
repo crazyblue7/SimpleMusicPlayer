@@ -1,6 +1,7 @@
 // List of tracks in the LocalAccessMusic folder
 const tracks = [
     "LocalAccessMusic/song1.mp3",
+    "LocalAccessMusic/sickomode.mp3",
     "LocalAccessMusic/song2.mp3",
     "LocalAccessMusic/song3.mp3"
 ];
