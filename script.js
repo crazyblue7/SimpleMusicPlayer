@@ -13,7 +13,8 @@ const trackName = document.getElementById('track-name');
 // Load the current track
 function loadTrack(index) {
     audioPlayer.src = tracks[index];
-    trackName.innerText = tracks[index].split('/').pop();
+    let trackDisplayName = tracks[index].split('/').pop().replace('.mp3', '');
+    trackName.innerText = trackDisplayName;
     audioPlayer.load();
 }
 
