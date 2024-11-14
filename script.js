@@ -1,6 +1,6 @@
 // List of tracks in the LocalAccessMusic folder
 const tracks = [
-    "LocalAccessMusic/Mas que nada (i like this version).mp3"
+    "LocalAccessMusic/Mas Que Nada (i like this version).mp3"
 ];
 
 let currentTrackIndex = 0;
